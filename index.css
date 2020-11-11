@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+#calculator__wrapper {
+    width: 300px;
+    height: 490px;
+    background-color: #39393B;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Header */
+
+.wrapper__header__container {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.wrapper__header__container__mini {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.header-btn {
+    width: 40px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #39393B;
+    transition: .3s;
+}
+
+.header-btn:hover {
+    background-color: #494A52;
+    border: 1px solid #fff;
+}
+
+.name {
+    width: 90px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Display */
+
+.wrapper__display__container {
+    width: 100%;
+    height: 100px;
+}
+
+#calculator__wrapper__btn {
+    padding: 5px;
+}
+
+
+/* Math Special */
+
+.wrapper__special__container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.wrapper__special__container button {
+    height: 30px;
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    transition: .3s;
+    border: 1px solid transparent;
+}
+
+.wrapper__special__container button:disabled {
+    color: #494A52;
+}
+
+.wrapper__special__container .able:hover {
+    background-color: #494A52;
+    border: 1px solid #fff;
+}
+
+
+/* Keyboeard */
+
+.wrapper__key__container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.wrapper__key__container button {
+    height: 50px;
+    background-color: #29292E;
+    color: #fff;
+    border: 1px solid transparent;
+    margin: 1px;
+    transition: .3s;
+}
+
+.wrapper__key__container .operator {
+    background-color: #404247;
+}
+
+.wrapper__key__container .equal {
+    background-color: transparent;
+}
+
+.wrapper__key__container button:hover {
+    background-color: #494A52;
+}

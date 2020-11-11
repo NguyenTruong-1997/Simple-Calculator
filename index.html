@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Grid</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <section id="calculator">
+        <div id="calculator__wrapper">
+            <!-- Header -->
+            <div id="calculator__wrapper__header">
+                <div class="wrapper__header__container">
+                    <div class="wrapper__header__container__mini">
+                        <div class="bar header-btn"><i class="fas fa-bars"></i></div>
+                        <div class="name">Standard</div>
+                        <div class="import header-btn"><i class="fas fa-file-import"></i></div>
+                    </div>
+                    <div class="history header-btn"><i class="fas fa-history"></i></div>
+                </div>
+            </div>
+
+            <!-- Display -->
+            <div class="calculator__wrapper__display">
+                <div class="wrapper__display__container"></div>
+            </div>
+
+            <div id="calculator__wrapper__btn">
+                <!-- Math Special -->
+                <div class="calculator__wrapper__special">
+                    <div class="wrapper__special__container">
+                        <button disabled>MC</button>
+                        <button disabled>MR</button>
+                        <button class="able">M+</button>
+                        <button class="able">M-</button>
+                        <button class="able">MS</button>
+                        <button disabled>M</button>
+                    </div>
+                </div>
+
+                <!-- Keyboard -->
+                <div id="calculator__wrapper__key">
+                    <div class="wrapper__key__container">
+                        <!-- Line1 -->
+                        <button class="operator">%</button>
+                        <button class="operator">CE</button>
+                        <button class="operator">C</button>
+                        <button class="operator"><i class="fas fa-backspace"></i></button>
+
+                        <!-- Line2 -->
+                        <button class="operator">1/x</button>
+                        <button class="operator">x^2</button>
+                        <button class="operator">sqrt</button>
+                        <button class="operator">&#247</button>
+
+                        <!-- Line3 -->
+                        <button class="number">7</button>
+                        <button class="number">8</button>
+                        <button class="number">9</button>
+                        <button class="operator">&times;</button>
+
+                        <!-- Line4 -->
+                        <button class="number">4</button>
+                        <button class="number">5</button>
+                        <button class="number">6</button>
+                        <button class="operator">-</button>
+
+                        <!-- Line5 -->
+                        <button class="number">1</button>
+                        <button class="number">2</button>
+                        <button class="number">3</button>
+                        <button class="operator">+</button>
+
+                        <!-- Line6 -->
+                        <button class="">+/-</button>
+                        <button class="">0</button>
+                        <button class="">.</button>
+                        <button class="equal">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
