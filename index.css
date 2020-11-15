@@ -15,6 +15,10 @@
     transform: translate(-50%, -50%);
 }
 
+button:focus {
+    outline: 0;
+}
+
 
 /* Header */
 
